@@ -4,6 +4,8 @@
 
 ## How  to setup
 
+### For Mac Users
+
   first ,you should know about Vim plugins managed by [Vundle](https://github.com/gmarik/Vundle.vim) (Like Bundler , a Ruby gem manager)
 
   then reference link [square/maximum-awesome](https://github.com/square/maximum-awesome)
@@ -24,6 +26,18 @@
   |-- Maximum-awesome (Square Company Common used)
   |-- /.gitconfig (common git config)
 ```
+
+### For Ubuntu / CentOS（~6.X） User 
+
+Ubuntu User ,  should follow the project [justaparth/maximum-awesome-linux](https://github.com/justaparth/maximum-awesome-linux.git)
+
+it include the vim bundled some plugins and tmux session keeper and vim theme 
+
+CentOS user , should follow the Vundle proejct [Vundle](https://github.com/gmarik/Vundle.vim) and config [tmux](http://tmux.sourceforge.net/)
+
+
+### For CentOS 7 User
+ As Centos 7 has a lot  of changes ,  we need to notice that.
 
 
 ## Contributors
