@@ -14,7 +14,7 @@
 
   And If are a Mac user , I recommand the iTerm 2  and Macvim
   
-  vim config file orgnazition:
+  dot files and config folders orgnazition:
 ```
   ~/
   |-- /.vimrc
