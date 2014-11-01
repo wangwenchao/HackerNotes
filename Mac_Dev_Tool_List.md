@@ -1,8 +1,9 @@
 ## Mac dev tool list
 
-[http://www.sourabhbajaj.com/mac-setup/](http://www.sourabhbajaj.com/mac-setup/)
-
-ref: [https://github.com/sb2nov/mac-setup](https://github.com/sb2nov/mac-setup)
+- [http://www.sourabhbajaj.com/mac-setup/](http://www.sourabhbajaj.com/mac-setup/)
+- [https://github.com/sb2nov/mac-setup](https://github.com/sb2nov/mac-setup)
+- [https://github.com/nicolashery/mac-dev-setup](https://github.com/nicolashery/mac-dev-setup)
+- 
 
 ### Iterm / Zsh
 - [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh/)
@@ -32,9 +33,10 @@ ref: [https://github.com/sb2nov/mac-setup](https://github.com/sb2nov/mac-setup)
   
 ### Dev Editors
 - Sublime text 3
-  - http://www.sublimetext.com/3
-  - http://www.sublimetext.com/docs/3/
-  - http://sublime-text-unofficial-documentation.readthedocs.org/en/sublime-text-2/index.html
+  - <http://www.sublimetext.com/3>
+  - <http://www.sublimetext.com/docs/3/>
+  - <http://sublime-text-unofficial-documentation.readthedocs.org/en/sublime-text-2/index.html>
+  - <https://sublime.wbond.net/ >
 
 - Textmate
   - http://macromates.com/
