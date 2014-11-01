@@ -3,7 +3,7 @@
 - [http://www.sourabhbajaj.com/mac-setup/](http://www.sourabhbajaj.com/mac-setup/)
 - [https://github.com/sb2nov/mac-setup](https://github.com/sb2nov/mac-setup)
 - [https://github.com/nicolashery/mac-dev-setup](https://github.com/nicolashery/mac-dev-setup)
-- 
+
 
 ### Iterm / Zsh
 - [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh/)
@@ -49,7 +49,8 @@
 
 ### Writing
 -  Jekyll 
--  [gitbook.io](http://gitbook.io)
+-  [gitbook.io](http://gitbook.io) and the source code  [https://github.com/GitbookIO/gitbook](https://github.com/GitbookIO/gitbook)
+-  
 
 ### Reading
 
