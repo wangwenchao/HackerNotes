@@ -50,7 +50,7 @@
 ### Writing
 -  Jekyll 
 -  [gitbook.io](http://gitbook.io) and the source code  [https://github.com/GitbookIO/gitbook](https://github.com/GitbookIO/gitbook)
--  
+
 
 ### Reading
 
