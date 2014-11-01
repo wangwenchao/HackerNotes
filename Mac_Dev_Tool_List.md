@@ -1,5 +1,9 @@
 ## Mac dev tool list
 
+[http://www.sourabhbajaj.com/mac-setup/](http://www.sourabhbajaj.com/mac-setup/)
+
+ref: [https://github.com/sb2nov/mac-setup](https://github.com/sb2nov/mac-setup)
+
 ### Iterm / Zsh
 - [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh/)
 
@@ -45,7 +49,6 @@
 -  Jekyll 
 -  [gitbook.io](http://gitbook.io)
 
-### 
+### Reading
 
-ref: [https://github.com/sb2nov/mac-setup](https://github.com/sb2nov/mac-setup)
 
