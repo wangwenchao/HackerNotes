@@ -1,6 +1,6 @@
 # Vim As a IDE
 
---- First Config the Basic Dev env follow [Mac_Dev_Tool_List](Mac_Dev_Tool_List.md) ---
+*** First Config the Basic Dev env follow [Mac_Dev_Tool_List](Mac_Dev_Tool_List.md) ***
 
   As a one of hackers, Vim  is very popular used editor , Where do  what We can  and could. So make Vim as a 'IDE'  as possible
 
