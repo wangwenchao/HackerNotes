@@ -11,7 +11,7 @@
   Or
   
   ```shell
-    xcode-select --install
+    $ xcode-select --install
   ```
   
 - HomeBrew & Homebrew-cask
@@ -21,7 +21,7 @@
   ```
   
   ``` shell
-    echo 'export PATH="/usr/local/bin:$PATH"' >> ~/.bash_profile
+    $ echo 'export PATH="/usr/local/bin:$PATH"' >> ~/.bash_profile
   ```
   
   export extra path to the .bash_profile , .zshrc if you use Zsh
@@ -36,7 +36,7 @@
   - http://macromates.com/
   
 - Vim
-  [vim as a IDE](/)
+  config as the readme 
   
 - Macvim
 
