@@ -13,3 +13,6 @@ As a hacker , Here take some development and study notes
 - [Ruby](Ruby.md)
 - [NodeJS](NodeJS.md)
 
+>
+>Learing,Studying,and Thinking , then Writing and Shareing
+>
