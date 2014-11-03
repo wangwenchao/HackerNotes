@@ -78,7 +78,46 @@
 <http://raugher.blog.51cto.com/3472678/1169604>
 
 Check the config file content
-``egrep -v '^#|^$' /etc/my.cnf``
+``egrep -v '^#|^$' /etc/my.cnf``  
+
+result  like following:
+```
+[client]
+port            = 3306
+socket          = /tmp/mysqld.sock
+[mysqld]
+port            = 3306
+socket          = /tmp/mysqld.sock
+skip-locking
+key_buffer = 16M
+max_allowed_packet = 1M
+table_cache = 64
+sort_buffer_size = 512K
+net_buffer_length = 8K
+read_buffer_size = 256K
+read_rnd_buffer_size = 512K
+myisam_sort_buffer_size = 8M
+log-bin=mysql-bin
+server-id       = 1
+default-character-set=utf8
+[mysqldump]
+quick
+max_allowed_packet = 16M
+[mysql]
+no-auto-rehash
+[isamchk]
+key_buffer = 20M
+sort_buffer_size = 20M
+read_buffer = 2M
+write_buffer = 2M
+[myisamchk]
+key_buffer = 20M
+sort_buffer_size = 20M
+read_buffer = 2M
+write_buffer = 2M
+[mysqlhotcopy]
+interactive-timeout
+```
 
 1) master : 
 ```SHOW MASTER STATUS;```
