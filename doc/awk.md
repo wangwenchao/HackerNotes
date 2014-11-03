@@ -1,5 +1,6 @@
 ##awk用法小结
 
+
 ```
 awk 用法：awk ' pattern {action} '  
 
@@ -116,3 +117,4 @@ awk '{print '$Flag'}'   结果为abcd
 awk '{print  "$Flag"}'   结果为$Flag
 
 ```
+
