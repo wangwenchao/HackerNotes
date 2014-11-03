@@ -2,9 +2,10 @@
 
 Git toturial and reference links
 
-- <http://git-scm.com/>
+- offcial size: <http://git-scm.com/>
 - <http://think-like-a-git.net/>
-- <http://nvie.com/posts/a-successful-git-branching-model/>
+- git flow intro <http://nvie.com/posts/a-successful-git-branching-model/>
+- gitflow <https://github.com/nvie/gitflow>
 - <http://rogerdudler.github.io/git-guide/>
 - <https://guides.github.com/>
 - <http://python-guide.readthedocs.org/en/latest/>
