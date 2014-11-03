@@ -118,7 +118,7 @@ write_buffer = 2M
 [mysqlhotcopy]
 interactive-timeout
 ```
-
+#Master#
 1) master : 
 ```SHOW MASTER STATUS;```
 
@@ -137,7 +137,7 @@ eg:``` GRANT REPLICATION SLAVE ON *.* to 'slave88'@'10.210.128.88' identified by
 6)  master:
 ```	unlock tables;```
 
-##slave##： 
+#slave#
 ```
 mysql> reset master;
 mysql>	change master to 
