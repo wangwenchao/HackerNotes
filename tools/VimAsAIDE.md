@@ -14,7 +14,9 @@
 
   *next*, you like to use the [tmux](http://tmux.sourceforge.net) 
 
-  And If are a Mac user , I recommand the iTerm 2  and Macvim
+  And If are a Mac user , I recommand the **iTerm 2**  and **Macvim**
+  
+  *Last*  config the terminate / iterm and Vim color theme recommand [altercation/solarized](https://github.com/altercation/solarized)
   
   dot files and config folders orgnazition:
 ```
