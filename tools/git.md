@@ -17,7 +17,8 @@ Git toturial and reference links
 
 ### git custom config
  
- ```  git config --global user.name "<User Name>"
+ ```shell
+      git config --global user.name "<User Name>"
       git config --global user.email "<Email>"
       git config --global editor '< vim/macvim/mate>'
       git config --global alias.br 'branch'
@@ -31,8 +32,10 @@ Git toturial and reference links
       git config --global alias.history 'log --graph --pretty --oneline'
       git config --global alias.merge 'merge --no-ff'
       
+```
 
 OR add the following into the ~/.gitconfig file is the git config file:
+
 ```
 [alias]
   ci = commit -a -v
