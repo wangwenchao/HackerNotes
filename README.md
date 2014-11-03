@@ -12,6 +12,7 @@ As a hacker , Here take some development and study notes
 - [Golang](/programming/Golang-ref-list.md)
 - [Ruby](/programming/Ruby.md)
 - [NodeJS](/programming/NodeJS.md)
+- <http://wiki.bash-hackers.org/doku.php> 
 
 >
 > ##Learing,Studying,and Thinking , then Writing and Sharing##
