@@ -2,22 +2,23 @@
 
 
 ### git 
-https://guides.github.com/
-http://python-guide.readthedocs.org/en/latest/
-http://marklodato.github.io/visual-git-guide/index-en.html ***
-http://git-scm.com/ ***
-http://think-like-a-git.net/
-http://rogerdudler.github.io/git-guide/
-http://jiongks.name/blog/a-successful-git-branching-model
-http://blog.jobbole.com/54184/
-http://blog.jobbole.com/50603/  **
 
-### mysql
+- <https://guides.github.com/>
+- <http://python-guide.readthedocs.org/en/latest/>
+- <http://marklodato.github.io/visual-git-guide/index-en.html >
+- <http://git-scm.com/ >
+- <http://think-like-a-git.net/>
+- <http://rogerdudler.github.io/git-guide/>
+- <http://jiongks.name/blog/a-successful-git-branching-model>
+- <http://blog.jobbole.com/54184/>
+- <http://blog.jobbole.com/50603/ >
 
-replication doc
-http://dev.mysql.com/doc/refman/5.6/en/replication.html
+### mysql replication
 
-----------------mysql master conf-----------------------
+<http://dev.mysql.com/doc/refman/5.6/en/replication.html>
+
+##mysql master conf##
+```
 	mysql master config(my.conf) demo:
 	[mysqld]
 	datadir=/var/lib/mysql
@@ -36,9 +37,6 @@ http://dev.mysql.com/doc/refman/5.6/en/replication.html
 	collation-server 		= utf8_unicode_ci
 	init-connect			='SET NAMES utf8'
 	character-set-server 	= utf8
-
-	#
-	#
 	#
 	# for cluster  and replication
 	server_id	=1
@@ -59,9 +57,10 @@ http://dev.mysql.com/doc/refman/5.6/en/replication.html
 	[mysqld_safe]
 	log-error=/var/log/mysqld.log
 	pid-file=/var/run/mysqld/mysqld.pid
-
-------------------mysql slave conf-----------------------
-mysql slave config demo:
+```
+##mysql slave conf##
+mysql slave config demo
+```
 	[mysql]
 	default-character-set = utf8
 	[client]
@@ -79,64 +78,62 @@ mysql slave config demo:
 	bin-log		=mysql-bin
 	relay-log	=mysql-relay
 	relay-only 	=1
-
+```
 -------------------------------------------------------
 	
-
-
 ### mysql replication configration 
 
-1.  setup DB slave  128.88
-http://dev.mysql.com/doc/refman/5.1/en/replication-howto-newservers.html
-http://m.oschina.net/blog/29671	
-https://www.digitalocean.com/community/tutorials/how-to-set-up-master-slave-replication-in-mysql
-http://blog.sina.com.cn/s/blog_6b92dce10101hgxn.html
-http://babaoqi.iteye.com/blog/1954471
-http://raugher.blog.51cto.com/3472678/1169604
+1.  setup DB slave  
+<http://dev.mysql.com/doc/refman/5.1/en/replication-howto-newservers.html>
+<http://m.oschina.net/blog/29671	>
+<https://www.digitalocean.com/community/tutorials/how-to-set-up-master-slave-replication-in-mysql>
+<http://blog.sina.com.cn/s/blog_6b92dce10101hgxn.html>
+<http://babaoqi.iteye.com/blog/1954471>
+<http://raugher.blog.51cto.com/3472678/1169604>
 
-#####################################################
 Check the config file content
-	 egrep -v '^#|^$' /etc/my.cnf
+``egrep -v '^#|^$' /etc/my.cnf``
 
 1) master : 
-			SHOW MASTER STATUS;
-2)			GRANT REPLICATION SLAVE ON *.* to 'slave1'@'<Slave1 IP>' identified by 'slave1_pwd';
-	eg: GRANT REPLICATION SLAVE ON *.* to 'slave88'@'10.210.128.88' identified by 'slave88pwd';
+```SHOW MASTER STATUS;```
+2)
+```GRANT REPLICATION SLAVE ON *.* to 'slave1'@'<Slave1 IP>' identified by 'slave1_pwd';```
+eg:``` GRANT REPLICATION SLAVE ON *.* to 'slave88'@'10.210.128.88' identified by 'slave88pwd';```
 
-3)			FLUSH TABLES WITH READ LOCK;
+3)```			FLUSH TABLES WITH READ LOCK;```
 4)	backup  master db data 
 5)  rsync backup db data file to salve data dir 
-	
+
 6)  master:
-		unlock tables;
-#####################################################
+```	unlock tables;```
+
 ##slave##： 
+```
 mysql> reset master;
-mysql>	hange master to 
+mysql>	change master to 
 		master_host='<Master_ip>',
 		master_user='<Slave_repl-username>',
 		master_password='<slave-repl-passwd>',
 		master_log_file='mysql-bin-xxx',
 		master_log_pos=xxx;
+```
 eg :
-		change master to master_host='10.212.0.61',	master_user='slave88',master_password='slave88pwd',master_log_file='mysql-bin-xxx',master_log_pos=xxx;
+```change master to master_host='10.212.0.61',	master_user='slave88',master_password='slave88pwd',master_log_file='mysql-bin-xxx',master_log_pos=xxx;```
 
 8）
-mysql>	start slave;
+``mysql>	start slave;```
 9）
-mysql>	show slave status ;
+```mysql>	show slave status ;```
 
 to check the :
  	Slave_IO_Running: Yes
   	Slave_SQL_Running: Yes
 
-
-#####################################################
 2. change the dcm domain  A record to 128.88 
-
 
 3.  change the DB  master to 128.88
 
+```
 #####################################################
 MYSQL主从切换(主库未宕机)  
 http://babaoqi.iteye.com/blog/1954471
@@ -271,14 +268,5 @@ More details on MySQL document: http://dev.mysql.com/doc/refman/5.1/en/replicati
 DCM  product 
 DCM API and UDP product_id
 
-1. 
- alter table api_keys add column product_id  varchar(40) after  product; 
-2.
-use dns_issue;
-set names utf8;
-update api_keys set product = 'SINA.Weibo.Music.乐库' where product = 'SINA.Mobile.Music.乐库';
-update api_keys set product = 'SINA.Weibo.Game Portal.游戏'  where product = 'SINA.Game.Game Portal.游戏';
-update api_keys set product = 'SINA.Weibo.Game Portal.手机游戏'  where product = 'SINA.Game.Game Portal.手机游戏';
-update api_keys set product = 'SINA.Weibo.Wei Pan.微盘'  where product = 'SINA.Other.Wei Pan.微盘';
-
+```
 
