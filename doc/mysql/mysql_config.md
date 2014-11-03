@@ -17,7 +17,7 @@
 
 <http://dev.mysql.com/doc/refman/5.6/en/replication.html>
 
-##mysql master conf##
+#mysql master conf#
 ```
 	mysql master config(my.conf) demo:
 	[mysqld]
@@ -58,8 +58,7 @@
 	log-error=/var/log/mysqld.log
 	pid-file=/var/run/mysqld/mysqld.pid
 ```
-##mysql slave conf##
-mysql slave config demo
+#mysql slave conf#
 ```
 	[mysql]
 	default-character-set = utf8
@@ -81,7 +80,7 @@ mysql slave config demo
 ```
 -------------------------------------------------------
 	
-### mysql replication configration 
+### mysql replication process
 
 1.  setup DB slave  
 <http://dev.mysql.com/doc/refman/5.1/en/replication-howto-newservers.html>
@@ -96,12 +95,17 @@ Check the config file content
 
 1) master : 
 ```SHOW MASTER STATUS;```
+
 2)
 ```GRANT REPLICATION SLAVE ON *.* to 'slave1'@'<Slave1 IP>' identified by 'slave1_pwd';```
+
 eg:``` GRANT REPLICATION SLAVE ON *.* to 'slave88'@'10.210.128.88' identified by 'slave88pwd';```
 
+
 3)```			FLUSH TABLES WITH READ LOCK;```
+
 4)	backup  master db data 
+
 5)  rsync backup db data file to salve data dir 
 
 6)  master:
@@ -117,11 +121,13 @@ mysql>	change master to
 		master_log_file='mysql-bin-xxx',
 		master_log_pos=xxx;
 ```
+
 eg :
 ```change master to master_host='10.212.0.61',	master_user='slave88',master_password='slave88pwd',master_log_file='mysql-bin-xxx',master_log_pos=xxx;```
 
 8）
 ``mysql>	start slave;```
+
 9）
 ```mysql>	show slave status ;```
 
