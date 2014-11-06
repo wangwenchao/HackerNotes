@@ -6,6 +6,7 @@
 - http://go-tour-zh.appspot.com/
 - http://blog.golang.org/index
 - http://godoc.org/
+- https://github.com/garyburd/redigo
 
 ## Tech Conf
   - [www.dotgo.eu](www.dotgo.eu)
