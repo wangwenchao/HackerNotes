@@ -8,3 +8,5 @@
 - <https://github.com/garyburd/redigo>
 - <http://webscalesql.org>
 - <https://github.com/twitter/twemproxy>
+- <https://github.com/sripathikrishnan/redis-rdb-tools>
+- <https://redis.readthedocs.org/en/latest>
