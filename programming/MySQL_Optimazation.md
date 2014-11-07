@@ -10,6 +10,8 @@
 ### MySQL Repl
 
 - [Data inconsistencies on MySQL replicas: Beyond pt-table-checksum](http://www.percona.com/blog/2014/11/04/data-inconsistencies-on-mysql-replicas-beyond-pt-table-checksum/)
+- [用pt-table-checksum校验数据一致性](http://nettedfish.sinaapp.com/blog/2013/06/04/check-replication-consistency-by-pt-table-checksum/)
+- [如何生成唯一的server Id](http://nettedfish.sinaapp.com/blog/2013/07/24/how-to-generate-unique-server_id/)
 
 ###Mysql backup
 
