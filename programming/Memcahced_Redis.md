@@ -8,5 +8,5 @@
 - <https://github.com/garyburd/redigo>
 - <http://webscalesql.org>
 - <https://github.com/twitter/twemproxy>
-- <https://github.com/sripathikrishnan/redis-rdb-tools>
+- <https://github.com/sripathikrishnan/redis-rdb-tools> arse Redis dump.rdb files, Analyze Memory, and Export Data to JSON
 - <https://redis.readthedocs.org/en/latest>
