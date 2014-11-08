@@ -10,6 +10,7 @@ As a hacker , Here take some development and study notes
 - [Git and SCM](tools/git.md)
 
 ### Awesome Series
+**<https://github.com/sindresorhus/awesome>**
 - <https://github.com/markets/awesome-ruby>
 - <https://github.com/avelino/awesome-go>
 - <https://github.com/vinta/awesome-python>
