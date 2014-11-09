@@ -8,9 +8,9 @@
 
 ###中文社区以及toturial
 - <http://cos.name/>
-- 七天搞定R <http://www.loyhome.com/learn-sas-in-7-days-index/> 
-- 统计学习概要 <http://www.loyhome.com/elements_of_statistical_learining_lecture_notes/>
-- 
+- 七天搞定R <http://www.loyhome.com/learn-sas-in-7-days-index/>
+- 统计学习概要<http://www.loyhome.com/elements_of_statistical_learining_lecture_notes/>
+
 
 ###Labs & Company
 
