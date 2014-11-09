@@ -6,6 +6,9 @@
 - <http://geodacenter.asu.edu/software>
 - <http://www.lyx.org/>
 
+### 生物信息学
+- <http://www.bioconductor.org/>
+
 ###中文社区以及toturial
 - <http://cos.name/>
 - 七天搞定R <http://www.loyhome.com/learn-sas-in-7-days-index/>
