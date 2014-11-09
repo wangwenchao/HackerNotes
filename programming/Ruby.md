@@ -2,9 +2,11 @@
 http://awesome-ruby.com/
 https://github.com/markets/awesome-ruby
 
+### code style:
+
+https://github.com/bbatsov/ruby-style-guide
+https://github.com/bbatsov/clojure-style-guide
 ## Excellent Gems
-
-
 ### DB
 mysql2
 pg
@@ -17,4 +19,12 @@ https://github.com/karmi/retire
 minitest https://semaphoreapp.com/blog/
 Factory_girls
 
- 
+### Gems
+- <https://github.com/amatsuda/kaminari>
+- <https://github.com/thoughtbot/paperclip>
+- <https://github.com/intridea/grape>
+- <https://github.com/mperham/dalli>
+
+### deploy 
+- Caps <http://capistranorb.com/>
+- Mina <http://nadarei.co/mina/> <https://github.com/mina-deploy/mina>
