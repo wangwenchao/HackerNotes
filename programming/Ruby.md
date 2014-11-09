@@ -9,7 +9,8 @@ https://github.com/bbatsov/clojure-style-guide
 - <https://github.com/amatsuda/kaminari>
 - <https://github.com/thoughtbot/paperclip>
 - <https://github.com/intridea/grape>
-- 
+- <https://github.com/mperham/dalli>
+
 
 ### deploy 
 - Caps <http://capistranorb.com/>
