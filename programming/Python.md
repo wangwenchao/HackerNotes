@@ -1,4 +1,5 @@
 ##Python
+https://github.com/vinta/awesome-python
 
 - <http://python.org>
 - <http://www.pythonforbeginners.com/basics/python-websites-tutorials>

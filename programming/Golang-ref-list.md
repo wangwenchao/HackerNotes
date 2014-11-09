@@ -1,5 +1,7 @@
 
 # Golang 
+https://github.com/avelino/awesome-go
+
 ## Docs and wiki
 - http://golang.org/doc/
 - https://code.google.com/p/go-wiki/w/list
