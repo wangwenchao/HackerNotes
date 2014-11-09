@@ -20,5 +20,8 @@
 ###Blogs
 - <http://yihui.name/cn/>
 - <http://www.bjt.name/>
-- <http://www.loyhome.com/>
+- <http://www.loyhome.com/> 
 - <http://www.tengfei.name/BiocWithTea/index/>
+
+### Toools
+- gnuplot让您的数据可视化<http://www.ibm.com/developerworks/cn/linux/l-gnuplot/index.html> <http://www.gnuplot.info/>
