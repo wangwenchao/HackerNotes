@@ -16,6 +16,7 @@ As a hacker , Here take some development and study notes
 - <https://github.com/vinta/awesome-python>
 - <https://github.com/ziadoz/awesome-php>
 
+<http://learnxinyminutes.com/>
 
 ### Programming
 - [Golang](/programming/Golang-ref-list.md)
