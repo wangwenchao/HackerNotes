@@ -17,7 +17,8 @@
 - <http://www.smallmeans.com/new-york-times-infographics/>
 
 
-Blogs
+###Blogs
 - <http://yihui.name/cn/>
+- <http://www.bjt.name/>
 - <http://www.loyhome.com/>
 - <http://www.tengfei.name/BiocWithTea/index/>
