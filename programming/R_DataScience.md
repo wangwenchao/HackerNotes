@@ -25,7 +25,7 @@
 - <http://www.bjt.name/>
 - <http://www.loyhome.com/> 
 - <http://www.tengfei.name/BiocWithTea/index/>
-- 3 Career Secrets for Aspiring Data Scientists<http://www.plottingsuccess.com/3-career-secrets-for-data-scientists-1101712/>
+- 3CareerSecretsforAspiringDataScientists<http://www.plottingsuccess.com/3-career-secrets-for-data-scientists-1101712/>
 - 
 ### Tools
 - gnuplot让您的数据可视化<http://www.ibm.com/developerworks/cn/linux/l-gnuplot/index.html> <http://www.gnuplot.info/>
