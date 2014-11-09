@@ -9,11 +9,14 @@ Git toturial and reference links
 - <http://rogerdudler.github.io/git-guide/>
 - <https://guides.github.com/>
 
+
 **Sexy Tools**
 - <https://github.com/aanand/git-up>
 - <https://github.com/mhagger/git-imerge>
 - <https://github.com/arc90/git-sweep>
 - gitflow <https://github.com/nvie/gitflow>
+
+
 
 - <http://python-guide.readthedocs.org/en/latest/>
 - <http://marklodato.github.io/visual-git-guide/index-en.html>
