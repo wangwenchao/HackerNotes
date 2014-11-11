@@ -5,7 +5,11 @@ https://github.com/markets/awesome-ruby
 ### Rails Code Reading
 - <https://speakerd.s3.amazonaws.com/presentations/9d372550aee2013157ef56ebe6298001/RubyOnRailsReadingGuide.pdf>
 - <https://speakerd.s3.amazonaws.com/presentations/962cf9c0281c0132a0f34a939855d77a/RenderIt.pdf>
-- Rack <http://rack.github.io/> <http://chneukirchen.org/blog/archive/2007/02/introducing-rack.html> <http://www.rubydoc.info/github/rack/rack/>
+- Rack 
+  - <http://rack.github.io/> 
+  - <https://github.com/rack/rack/wiki/Tutorials>
+  - <http://chneukirchen.org/blog/archive/2007/02/introducing-rack.html> 
+  - <http://www.rubydoc.info/github/rack/rack/>
 
 
 ### code style:
