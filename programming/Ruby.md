@@ -12,7 +12,9 @@ https://github.com/markets/awesome-ruby
 
 https://github.com/bbatsov/ruby-style-guide
 https://github.com/bbatsov/clojure-style-guide
-## Excellent Gems
+
+### Excellent Gems
+
 ### DB
 mysql2
 pg
