@@ -4,19 +4,17 @@ Git toturial and reference links
 
 - offcial size: <http://git-scm.com/>
 - <http://think-like-a-git.net/>
-- git flow intro <http://nvie.com/posts/a-successful-git-branching-model/>
-- gitflow <https://github.com/nvie/gitflow>
+- <http://nvie.com/posts/a-successful-git-branching-model/>  git flow intro
+- <https://github.com/nvie/gitflow>  gitflow
 - <http://rogerdudler.github.io/git-guide/>
 - <https://guides.github.com/>
-
+- <http://marklodato.github.io/visual-git-guide/index-en.html>
 
 **Sexy Tools**
 - <https://github.com/aanand/git-up>
 - <https://github.com/mhagger/git-imerge>
 - <https://github.com/arc90/git-sweep>
 - gitflow <https://github.com/nvie/gitflow>
-
-
 
 - <http://python-guide.readthedocs.org/en/latest/>
 - <http://marklodato.github.io/visual-git-guide/index-en.html>
