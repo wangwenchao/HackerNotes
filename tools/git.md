@@ -3,6 +3,7 @@
 Git toturial and reference links
 
 - offcial size: <http://git-scm.com/>
+- git cheatsheet <http://ndpsoftware.com/git-cheatsheet.html>
 - <http://think-like-a-git.net/>
 - <http://nvie.com/posts/a-successful-git-branching-model/>  git flow intro
 - <https://github.com/nvie/gitflow>  gitflow
