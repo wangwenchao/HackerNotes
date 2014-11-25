@@ -16,3 +16,7 @@ memcache
 Redis
   - <http://daoluan.net/blog/>
   - <http://blog.chinaunix.net/uid-22312037-id-3544588.html>
+
+Network
+ - Nmap <http://blog.csdn.net/aspirationflow/article/details/7932319>
+ - Rsync<http://blog.sina.com.cn/s/blog_5f5a3dff01017gaf.html>
