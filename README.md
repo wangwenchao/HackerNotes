@@ -26,8 +26,6 @@ As a hacker , Here take some development and study notes
 
 **<http://programming-motherfucker.com/become.html>**
 
-![Become a Programmer, Motherfucker](http://s3.amazonaws.com/zedshaw.progmofo/bg.png)
-
 >
 > ##Learing,Studying,and Thinking , then Writing and Sharing##
 >
