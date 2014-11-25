@@ -8,12 +8,6 @@
 - 伯乐在线<http://blog.jobbole.com/>
 - <http://blog.codinglabs.org/>
 
-MySQL
- - MySQL索引背后的数据结构及算法原理<http://blog.codinglabs.org/articles/theory-of-mysql-index.html>
- - 理解MySQL——架构与概念<http://www.cnblogs.com/hustcat/archive/2009/10/18/1585626.html>
- - 理解MySQL——复制(Replication)<http://www.cnblogs.com/hustcat/archive/2009/12/19/1627525.html>
- - 理解MySQL——并行数据库与分区(Partition)<http://www.cnblogs.com/hustcat/archive/2009/12/24/1631674.html>
- - 理解MySQL——索引与优化<http://www.cnblogs.com/hustcat/archive/2009/10/28/1591648.html>
 
 memcache 
   - <http://blog.charlee.li/memcached-001/> 
