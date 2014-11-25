@@ -18,9 +18,12 @@
 - [为MySQL选择合适的备份方式](http://blog.jobbole.com/45097/)
 - [Backup and restore of MySQL to OpenStack Swift](http://www.percona.com/blog/2014/11/01/backup-and-restore-of-mysql-to-openstack-swift/)
 
-MySQL Optmize
+###MySQL Optmize
  - MySQL索引背后的数据结构及算法原理<http://blog.codinglabs.org/articles/theory-of-mysql-index.html>
  - 理解MySQL——架构与概念<http://www.cnblogs.com/hustcat/archive/2009/10/18/1585626.html>
  - 理解MySQL——复制(Replication)<http://www.cnblogs.com/hustcat/archive/2009/12/19/1627525.html>
  - 理解MySQL——并行数据库与分区(Partition)<http://www.cnblogs.com/hustcat/archive/2009/12/24/1631674.html>
  - 理解MySQL——索引与优化<http://www.cnblogs.com/hustcat/archive/2009/10/28/1591648.html>
+
+### Mysql wiki
+-  MySQL Scripts & Code References <https://wikis.oracle.com/pages/viewpage.action?pageId=32015099>
