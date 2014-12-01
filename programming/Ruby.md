@@ -27,6 +27,16 @@ redis-rb -- redis client
 https://github.com/elasticsearch/elasticsearch-rails 
 https://github.com/karmi/retire
 
+## Ruby GC
+<http://tmm1.net/ruby21-rgengc/>
+<http://tmm1.net/>
+<https://ruby-china.org/topics/12033> 蝉游记的Nginx+unicorn+Cap 部署配置
+<https://ruby-china.org/topics/13740>
+<https://www.phusionpassenger.com/documentation/Users%20guide%20Nginx.html>  Passenger+Nginx guide
+<http://robbin.iteye.com/blog/307271>
+<http://blog.packagecloud.io/eng/2014/11/17/debugging-ruby-gem-segfault/>
+
+
 ### Test
 minitest https://semaphoreapp.com/blog/
 Factory_girls
