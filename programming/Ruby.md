@@ -11,16 +11,23 @@ https://github.com/markets/awesome-ruby
   - <http://chneukirchen.org/blog/archive/2007/02/introducing-rack.html> 
   - <http://www.rubydoc.info/github/rack/rack/>
 
+### MetaProgramming
+
+- <http://ruby-metaprogramming.rubylearning.com/html/ruby_metaprogramming_1.html>
+- <http://yehudakatz.com/2009/11/15/metaprogramming-in-ruby-its-all-about-the-self/>
+- <http://www.kalzumeus.com/2009/11/17/practical-metaprogramming-with-ruby-storing-preferences/>
+- <http://deathking.is-programmer.com/pages/35262.html>
+
 
 ### code style:
 
-https://github.com/bbatsov/ruby-style-guide
-https://github.com/bbatsov/clojure-style-guide
+- https://github.com/bbatsov/ruby-style-guide
+- https://github.com/bbatsov/clojure-style-guide
 
 ### Excellent Gems
 
 ### DB
-mysql2
+mysql2 ( <http://mysql-mmm.org/start>  mysql multi master)
 pg
 dalli -- memcache ruby client
 redis-rb -- redis client
