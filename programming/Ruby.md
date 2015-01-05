@@ -18,6 +18,11 @@ https://github.com/markets/awesome-ruby
 - <http://www.kalzumeus.com/2009/11/17/practical-metaprogramming-with-ruby-storing-preferences/>
 - <http://deathking.is-programmer.com/pages/35262.html>
 
+### Ruby News
+ - <http://railsapps.github.io/>
+ - <http://greenruby.org/>
+ - <https://gorails.com>
+ - <http://rubyweekly.com/issues>
 
 ### code style:
 

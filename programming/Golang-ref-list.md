@@ -9,6 +9,8 @@ https://github.com/avelino/awesome-go
 - http://blog.golang.org/index
 - http://godoc.org/
 - https://github.com/garyburd/redigo
+- http://www.golang-book.com/
+- https://gobyexample.com/
 
 ## Tech Conf
   - [www.dotgo.eu](www.dotgo.eu)
