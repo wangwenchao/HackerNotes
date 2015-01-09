@@ -11,18 +11,33 @@ https://github.com/markets/awesome-ruby
   - <http://chneukirchen.org/blog/archive/2007/02/introducing-rack.html> 
   - <http://www.rubydoc.info/github/rack/rack/>
 
+<<<<<<< HEAD
 ### Web Frameworks
   - <http://recipes.sinatrarb.com/p/deployment/nginx_proxied_to_unicorn>
+=======
+### MetaProgramming
+
+- <http://ruby-metaprogramming.rubylearning.com/html/ruby_metaprogramming_1.html>
+- <http://yehudakatz.com/2009/11/15/metaprogramming-in-ruby-its-all-about-the-self/>
+- <http://www.kalzumeus.com/2009/11/17/practical-metaprogramming-with-ruby-storing-preferences/>
+- <http://deathking.is-programmer.com/pages/35262.html>
+
+### Ruby News
+ - <http://railsapps.github.io/>
+ - <http://greenruby.org/>
+ - <https://gorails.com>
+ - <http://rubyweekly.com/issues>
+>>>>>>> 47d8383f32448f24dce85296f37fc347d5f226be
 
 ### code style:
 
-https://github.com/bbatsov/ruby-style-guide
-https://github.com/bbatsov/clojure-style-guide
+- https://github.com/bbatsov/ruby-style-guide
+- https://github.com/bbatsov/clojure-style-guide
 
 ### Excellent Gems
 
 ### DB
-mysql2
+mysql2 ( <http://mysql-mmm.org/start>  mysql multi master)
 pg
 dalli -- memcache ruby client
 redis-rb -- redis client
